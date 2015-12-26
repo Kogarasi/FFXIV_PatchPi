@@ -1,0 +1,24 @@
+body {
+	background-color: #e7e7eb;
+	background-image: url("../images/paissa.png");
+	background-attachment: fixed;
+	background-position: center;
+}
+nav {
+	height: 34px;
+	line-height: 34px;
+}
+
+.caption {
+	color: #e6b422;
+	text-shadow: 3px 3px 5px #ad7d4c;
+}
+
+.card {
+	background-color: rgba( 225, 152, 180, 0.6 );
+}
+
+.card-title {
+	color: white;
+	text-shadow: 1px 1px 3px #000;
+}
