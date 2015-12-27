@@ -1,0 +1,25 @@
+/* line 1, /root/FFXIV_PatchPi/source/stylesheets/index.scss */
+body {
+  background-color: #e7e7eb;
+  background-image: url("../images/paissa.png");
+  background-attachment: fixed;
+  background-position: center; }
+
+/* line 7, /root/FFXIV_PatchPi/source/stylesheets/index.scss */
+nav {
+  height: 34px;
+  line-height: 34px; }
+
+/* line 12, /root/FFXIV_PatchPi/source/stylesheets/index.scss */
+.caption {
+  color: #e6b422;
+  text-shadow: 3px 3px 5px #ad7d4c; }
+
+/* line 17, /root/FFXIV_PatchPi/source/stylesheets/index.scss */
+.card {
+  background-color: rgba(225, 152, 180, 0.6); }
+
+/* line 21, /root/FFXIV_PatchPi/source/stylesheets/index.scss */
+.card-title {
+  color: white;
+  text-shadow: 1px 1px 3px #000; }
