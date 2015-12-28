@@ -46,3 +46,8 @@ middleman deploy
 ```
 
 実行するとbuildディレクトリの中身をgh-pagesにコミット/プッシュしてくれます
+
+# Learn More...
+
+wikiに方針とか書きました。
+https://github.com/Kogarasi/FFXIV_PatchPi/wiki
