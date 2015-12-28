@@ -32,3 +32,17 @@ git clone git@github.com:Kogarasi/FFXIV_PatchPi.git
 middleman server
 ```
  
+
+# Create Static Page
+
+```bash
+middleman build
+```
+
+実行するとbuildディレクトリに静的ページがはき出されます。
+
+```bash
+middleman deploy
+```
+
+実行するとbuildディレクトリの中身をgh-pagesにコミット/プッシュしてくれます
