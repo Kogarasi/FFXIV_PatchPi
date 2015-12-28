@@ -1,8 +1,12 @@
 body {
 	background-color: #e7e7eb;
-	background-image: url("../images/paissa.png");
+	background-image: url("../images/paissa.png"), url("../images/snow.png"), url("../images/snow2.png"), url("../images/snow3.png");
 	background-attachment: fixed;
-	background-position: center;
+
+	-webkit-animation: snow 20s linear infinite;
+	-moz-animation: snow 20s linear infinite;
+	-ms-animation: snow 20s linear infinite;
+	animation: snow 20s linear infinite;
 }
 nav {
 	height: 34px;
@@ -21,4 +25,24 @@ nav {
 .card-title {
 	color: white;
 	text-shadow: 1px 1px 3px #000;
+}
+
+@keyframes snow {
+	0% {background-position: center, 0px 0px, 0px 0px, 0px 0px;}
+	100% {background-position: center,500px 1000px, 400px 400px, 300px 300px;}
+}
+
+@-moz-keyframes snow {
+	0% {background-position: center, 0px 0px, 0px 0px, 0px 0px;}
+	100% {background-position: center, 500px 1000px, 400px 400px, 300px 300px;}
+}
+
+@-webkit-keyframes snow {
+	0% {background-position: center, 0px 0px, 0px 0px, 0px 0px;}
+	100% {background-position: center, 500px 1000px, 400px 400px, 300px 300px;}
+}
+
+@-ms-keyframes snow {
+	0% {background-position: center, 0px 0px, 0px 0px, 0px 0px;}
+	100% {background-position: center, 500px 1000px, 400px 400px, 300px 300px;}
 }
