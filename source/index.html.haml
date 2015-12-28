@@ -14,7 +14,7 @@
       .right
         JP only. Sorry other languages.
 
-  .section
+  %main.section
     .row.container
       .col.s12.m12
         .card{ style:"background-color:rgba(0,0,0,0.6);" }
@@ -153,6 +153,18 @@
                         %br
                         NPC"???"
                         %br
+                %p
+                  以下のジョブに新規アクションが実装されます
+
+                  %table
+                    %thead
+                      %tr
+                        %th ジョブ・クラス名
+                        %th アクション名
+                    %tbody
+                      %tr
+                        %td 黒魔道士
+                        %td ミラクルフラッシュ
             .card#item-info
               .card-content
                 .card-title
@@ -201,6 +213,28 @@
                 %p
                   %ul
                     %li パイッサに対して特定のエモートをすると、クライアントが強制終了する不具合が確認されています。
+
+
+  %footer.page-footer.black
+    .container
+      .row
+        .col.s12.m8
+          %h5.white-text このパッチノートについて
+          %p.grey-text.text-lighten-4
+            内容その１
+        .col.s4.m4
+          %h5.white-text Special Thanks
+          
+          %ul
+            %li
+              %a{ href:"https://twitter.com/kogarasi_cross" } @kogarasi_cross
+            %li
+              %a{ href:"https://google.co.jp" } @xxxxxx
+    .footer-copyright
+      .container
+        Copyright All rights reserved 
+        %a{ href: "https://twitter.com/kogarasi_cross" } @kogarasi_cross.
+        SQUAREENIX CO,LTD All Rights Reserved. FINAL FANTASY XIV
 
 
 %script{ src:"https://code.jquery.com/jquery-2.1.4.min.js" }
