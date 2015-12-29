@@ -1,0 +1,59 @@
+/* line 1, /root/FFXIV_PatchPi/source/stylesheets/index.scss */
+body {
+  background-color: #e7e7eb;
+  background-image: url("../images/paissa.png"), url("../images/snow.png"), url("../images/snow2.png"), url("../images/snow3.png");
+  background-attachment: fixed;
+  -webkit-animation: snow 20s linear infinite;
+  -moz-animation: snow 20s linear infinite;
+  -ms-animation: snow 20s linear infinite;
+  animation: snow 20s linear infinite; }
+
+/* line 11, /root/FFXIV_PatchPi/source/stylesheets/index.scss */
+nav {
+  height: 34px;
+  line-height: 34px; }
+
+/* line 16, /root/FFXIV_PatchPi/source/stylesheets/index.scss */
+footer {
+  background-image: url("../images/paissa_03.png");
+  background-position: center;
+  text-shadow: 1px 1px 3px #000; }
+
+/* line 23, /root/FFXIV_PatchPi/source/stylesheets/index.scss */
+p {
+  padding: 5px 0px; }
+
+/* line 26, /root/FFXIV_PatchPi/source/stylesheets/index.scss */
+.caption {
+  color: #e6b422;
+  text-shadow: 3px 3px 5px #ad7d4c; }
+
+/* line 31, /root/FFXIV_PatchPi/source/stylesheets/index.scss */
+.card {
+  background-color: rgba(225, 152, 180, 0.6); }
+
+/* line 35, /root/FFXIV_PatchPi/source/stylesheets/index.scss */
+.card-title {
+  color: white;
+  text-shadow: 1px 1px 3px #000; }
+
+@keyframes snow {
+  0% {
+    background-position: center, 0px 0px, 0px 0px, 0px 0px; }
+  100% {
+    background-position: center,500px 1000px, 400px 400px, 300px 300px; } }
+@-moz-keyframes snow {
+  0% {
+    background-position: center, 0px 0px, 0px 0px, 0px 0px; }
+  100% {
+    background-position: center, 500px 1000px, 400px 400px, 300px 300px; } }
+@-webkit-keyframes snow {
+  0% {
+    background-position: center, 0px 0px, 0px 0px, 0px 0px; }
+  100% {
+    background-position: center, 500px 1000px, 400px 400px, 300px 300px; } }
+@-ms-keyframes snow {
+  0% {
+    background-position: center, 0px 0px, 0px 0px, 0px 0px; }
+  100% {
+    background-position: center, 500px 1000px, 400px 400px, 300px 300px; } }
